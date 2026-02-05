@@ -119,7 +119,7 @@
 &kp GRAVE  &kp EXCL   &kp AT     &kp HASH   &kp DOLLAR  &kp PERCENT     &trans     &trans  &kp PLUS   &kp N7  &kp N8       &kp N9    &kp TILDE  &kp CARET
 &kp TILDE  &kp LT     &kp MINUS  &kp EQUAL  &kp GT      &kp UNDERSCORE  &kp MINUS  &kp N4  &kp N5     &kp N6  &kp AMPS     &kp PIPE
 &kp CARET  &kp LBRC   &kp LBKT   &kp RBKT   &kp RBRC    &kp DOLLAR      &trans     &trans  &kp ASTRK  &kp N1  &kp N2       &kp N3    &kp COLON  &kp SQT
-&none      &kp COMMA  &kp LPAR   &kp RPAR   &kp SEMI    &none           &trans     &trans  &trans     &trans  &kp PERCENT  &kp N0    &kp COMMA  &kp DOT    &kp FSLH  &none
+&trans     &kp COMMA  &kp LPAR   &kp RPAR   &kp SEMI    &none           &trans     &trans  &trans     &trans  &kp PERCENT  &kp N0    &kp COMMA  &kp DOT    &kp FSLH  &trans
 &trans     &trans     &trans     &trans     &trans      &trans          &trans     &trans  &trans     &trans
             >;
         };
@@ -138,11 +138,11 @@
         fn_layer {
             display-name = "fn_layer";
             bindings = <
-&kp F12   &kp F1          &kp F2          &kp F3          &kp F4   &kp F5           &none    &none    &kp F6             &kp F7   &kp F8   &kp F9   &kp F10  &kp F11
-&kp F12   &kp F11         &kp F12         &kp F13         &kp F14  &kp F15          &kp F16  &kp F17  &kp F18            &kp F19  &kp F20  &kp F21
-&kp CAPS  &kp F21         &kp F22         &kp F23         &kp F24  &kp PRINTSCREEN  &none    &none    &shift_contrl_alt  &none    &none    &none    &none    &kp KP_NLCK
-&trans    &none     &kp LS(DELETE)  &kp LC(INSERT)  &kp LS(INSERT)  &none            &none    &none    &none              &none    &none    &none    &none    &none        &rgb_ug RGB_TOG  &trans
-&trans    &trans          &trans          &trans          &trans   &trans           &trans   &trans   &trans             &trans
+&kp F12   &kp F1   &kp F2          &kp F3          &kp F4          &kp F5           &none    &none    &kp F6             &kp F7   &kp F8   &kp F9   &kp F10  &kp F11
+&kp F12   &kp F11  &kp F12         &kp F13         &kp F14         &kp F15          &kp F16  &kp F17  &kp F18            &kp F19  &kp F20  &kp F21
+&kp CAPS  &kp F21  &kp F22         &kp F23         &kp F24         &kp PRINTSCREEN  &none    &none    &shift_contrl_alt  &none    &none    &none    &none    &kp KP_NLCK
+&trans    &none    &kp LS(DELETE)  &kp LC(INSERT)  &kp LS(INSERT)  &none            &none    &none    &none              &none    &none    &none    &none    &none        &rgb_ug RGB_TOG  &trans
+&trans    &trans   &trans          &trans          &trans          &trans           &trans   &trans   &trans             &trans
             >;
         };
 
